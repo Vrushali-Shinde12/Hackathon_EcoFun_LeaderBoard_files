@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Page</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .box{
+                position: relative;
+                width: 35%;
+                height: 20px;
+                box-sizing: border-box;
+                display: flex;
+            }
+            .box .imgBox{
+                position: absolute;
+                overflow: hidden;
+            }
+            .box .imgBox img{
+                width: 100%;
+                transition: transform 2s;
+            }
+        </style>
+      </head>
+
+    <body>
+        <div class="box">
+        <div class="imgBox">
+            <a href="LeaderBoard.html">
+                <img src="home.jpg"> 
+            </a>
+        </div>
+        </div>
+    </body>
+    </html>
